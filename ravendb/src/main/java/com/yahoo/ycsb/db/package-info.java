@@ -1,4 +1,6 @@
-/**
+/*
+ * Copyright (c) 2015 - 2016 YCSB contributors. All rights reserved.
+ *
  * Licensed under the Apache License, Version 2.0 (the "License"); you
  * may not use this file except in compliance with the License. You
  * may obtain a copy of the License at
@@ -13,16 +15,8 @@
  * LICENSE file.
  */
 
-package com.yahoo.ycsb.db.hbase12;
-
 /**
- * HBase 1.2 client for YCSB framework.
- *
- * A modified version of HBaseClient (which targets HBase v1.2) utilizing the
- * shaded client.
- *
- * It should run equivalent to following the hbase098 binding README.
- *
+ * The YCSB binding for <a href="http://www.couchbase.com/">Couchbase</a>.
  */
-public class HBaseClient12 extends com.yahoo.ycsb.db.HBaseClient10 {
-}
+package com.yahoo.ycsb.db;
+
